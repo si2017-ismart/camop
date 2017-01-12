@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_intervenant"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mynewproject.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:layout_width="1000dp"
+        android:layout_height="200dp"
+        android:src="@mipmap/ic_launcher">
+
+    </ImageView>
+
+    <TextView
+        android:text="Une personne a besoin de vous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#fff"
+        android:id="@+id/textview"
+        android:textSize="33dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imbutton1"
+        android:src="@drawable/jyvais" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imbutton2"
+        android:src="@drawable/jpeuxpas"
+    />
+
+</RelativeLayout>
