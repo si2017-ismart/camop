@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, VideoViewActivity.class);
+                Intent intent = new Intent(MainActivity.this, WebViewActivity.class);
                 startActivity(intent);
             }
         });

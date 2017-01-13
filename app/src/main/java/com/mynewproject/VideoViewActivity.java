@@ -13,7 +13,7 @@ public class VideoViewActivity extends AppCompatActivity {
     ProgressDialog pDialog;
     VideoView videoview;
 
-    String VideoURL="http://192.168.12.158:8080";
+    String VideoURL="http://192.168.12.228:8082/stream.wmv";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
